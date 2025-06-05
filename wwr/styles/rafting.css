@@ -33,7 +33,7 @@ header {
 }
 
 .logo {
-  width: 80px; /* Ajuste conforme necessário */
+  width: 80px;
   height: auto;
 }
 
@@ -126,7 +126,7 @@ footer {
   margin: 40px auto;
   padding: 16px;
   display: flex;
-  justify-content: flex-end; /* Alinha todo o conteúdo do footer à direita */
+  justify-content: flex-end;
   align-items: center;
   gap: 20px;
   font-family: var(--body-font);
@@ -134,18 +134,16 @@ footer {
   border-top: 1px solid var(--secondary-color);
 }
 
-/* Se quiser o texto do copyright alinhado à esquerda, coloque ele numa div separada */
-/* Caso queira apenas as imagens alinhadas à direita e o texto à esquerda, faça assim: */
 
 footer {
   display: flex;
-  justify-content: space-between; /* texto à esquerda, redes sociais à direita */
+  justify-content: space-between;
   align-items: center;
 }
 
 .socialmedia {
   display: flex;
-  gap: 16px; /* espaço entre as imagens */
+  gap: 16px;
 }
 
 .socialmedia a img {
@@ -258,3 +256,84 @@ nav, p, section, article{
     height: 64px;
     object-fit: contain;
   }
+
+.employees {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap;
+  justify-content: left; 
+}
+
+.employees figure {
+  margin: 0; 
+  flex: 0 0 150px; 
+  text-align: left;
+}
+
+.employees img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.employees_gallery{
+  display: block;
+}
+.address {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+.map{
+  align-items: flex-end;
+  margin-top: 20px;
+display: ;
+}
+
+.phone_number{
+   margin-top: 30px;
+}
+
+.email{
+   margin-top: 30px;
+}
+
+.title_about{
+margin-top: 30px;
+}
+
+.title {
+  border: 10px solid red;
+}
+
+.title_about{
+  border: 10px solid red; 
+}
+
+.address{
+  display:inline-block;
+  border: 10px solid red; 
+}
+
+.map{
+  border: 10px solid red; 
+  height: auto;
+  width: auto;
+
+}
+
+.phone{
+  align-items: flex-start;
+   display:inline-block;
+  border: 10px solid red; 
+}
+
+.email{
+     display:inline-block;
+  border: 10px solid red; 
+}
+
