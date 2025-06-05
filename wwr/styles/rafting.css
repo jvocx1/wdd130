@@ -307,20 +307,20 @@ margin-top: 30px;
 }
 
 .title {
-  border: 10px solid red;
+
 }
 
 .title_about{
-  border: 10px solid red; 
+
 }
 
 .address{
-  display:inline-block;
-  border: 10px solid red; 
+  display:block;
+
 }
 
 .map{
-  border: 10px solid red; 
+ 
   height: auto;
   width: auto;
 
@@ -329,11 +329,10 @@ margin-top: 30px;
 .phone{
   align-items: flex-start;
    display:inline-block;
-  border: 10px solid red; 
+
 }
 
 .email{
-     display:inline-block;
-  border: 10px solid red; 
+     display:block;
 }
 
